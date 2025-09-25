@@ -5,7 +5,7 @@ Welche Marketing-Kanäle den größten Spieler-Zuwachs bringen.
 
 Welche Budget-Strategien die beste Conversion Rate liefern.
 
-**------Projektübersicht------**
+## Projektübersicht
 
 **Daten:**
 Social Media & Kampagnen-Daten (z. B. Audience, Channel, Duration, ROI, Engagement).
@@ -46,9 +46,12 @@ Matplotlib / Seaborn (Visualisierung)
 
 
 **Ergebnisse**
-Logistic Regression (balanced): Schwach, kaum besser als Zufall.
-Random Forest: Liefert solide Ergebnisse (Accuracy ~0.70, F1 ~0.81).
-XGBoost (balanced): Sehr stark bei F1-Score, berücksichtigt aber ohne Balancing nur Mehrheitsklasse.
+| Modell              | Accuracy | F1-Score | ROC-AUC | Kommentar                         |
+|---------------------|----------|----------|---------|-----------------------------------|
+| Logistic Regression | 0.51     | 0.61     | 0.50    | schwach, kaum besser als Zufall   |
+| Random Forest       | 0.70     | 0.81     | 0.59    | solide Ergebnisse                 |
+| XGBoost (balanced)  | 0.75     | 0.86     | 0.50    | stark, aber Mehrheitsklasse-lastig |
+
 
 Aktuell liefert Random Forest mit Balancing die besten Ergebnisse.
 
