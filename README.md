@@ -1,9 +1,11 @@
 # Marketing-Optimizer-Gaming-Industry-
-Dieses Projekt analysiert Marketingdaten und baut ML-Modelle, um vorherzusagen:
+Dieses Projekt untersucht Marketingkampagnen in der Gaming-Industrie. Ziel ist es, vorherzusagen, welche Kampagnen erfolgreich sind und welche Marketing-Kanäle den größten Beitrag zur Spielerakquise leisten. Die Modelle unterstützen Unternehmen dabei, Budgets effizienter einzusetzen und Spielerwachstum gezielt zu fördern.
 
-Welche Marketing-Kanäle den größten Spieler-Zuwachs bringen.
-
-Welche Budget-Strategien die beste Conversion Rate liefern.
+##  Business Relevance
+Mit den entwickelten Modellen können Gaming-Unternehmen:
+- Marketingbudgets effizienter einsetzen.
+- Vorhersagen, welche Zielgruppen und Kanäle die besten Conversions bringen.
+- Kampagnenplanung datengetrieben optimieren.
 
 ## Projektübersicht
 
@@ -58,10 +60,10 @@ Aktuell liefert Random Forest mit Balancing die besten Ergebnisse.
 
 
 **Nächste Schritte**
-Hyperparameter-Tuning (GridSearch / RandomizedSearch).
-Feature Engineering (z. B. Saisonabhängigkeit aus Datum).
-Mehr Visualisierung der Ergebnisse (ROC-Kurve, Feature Importance).
-Optional: Web-App/Dashboard (Streamlit) zur interaktiven Nutzung.
+- [ ] Hyperparameter-Tuning  
+- [ ] Feature Engineering (Datum → Saison, Regionale Effekte)  
+- [ ] Visualisierung (ROC-Kurven, Feature Importance)  
+- [ ] Deployment als Streamlit-App  
 
 
 
